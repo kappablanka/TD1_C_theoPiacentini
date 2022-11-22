@@ -12,7 +12,8 @@ int main(int argc, char const *argv[])
         int sum = 0;
         short int flagArgCorrectes = 1;
 
-        for (int i = 1; i < argc; i++)
+        int i = 1;
+        for (i = 1; i < argc; i++)
         {
             int entier_i = atoi(argv[i]);
             if (entier_i == 0)
