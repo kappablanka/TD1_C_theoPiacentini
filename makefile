@@ -1,4 +1,4 @@
-
+# pour build sur ma machine : mingw32-make
 CC=gcc
 CFLAGS=-W -Wall -ansi -pedantic
 
